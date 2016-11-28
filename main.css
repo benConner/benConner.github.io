@@ -1,17 +1,31 @@
 body{
-	background-color: black;
+	margin: 5%;
+	background: url(/img/dinosaur.jpg) black no-repeat;
+	background-position: center; 
+	background-size: 100%;
 }
-.dino-img-background{
-	padding: 0 3%;
-	height: 100%;
-	width: 100%;
-}
-h1, ul, a {
+
+.content-text-style {
 	color: white;
 	list-style: none;
 	padding-left: 5%;
 	margin-left: 5%;
 }
-.nav-link-header{
+
+.pic-about-ben{
+	max-height: 336px;
+	width: 225px;
+	margin-left: 50px;
 	margin-top: 20px;
+}
+
+.about-me-content{
+	background-color: rgba(0,0,0,0.6);
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+a:hover{
+	background: black;
+	color:red;
 }

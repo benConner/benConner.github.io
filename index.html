@@ -2,40 +2,61 @@
 <html>
 	<head>
 		<title>Ben Conner</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Press+Start+2P|VT323" rel="stylesheet">
+		<link rel="stylesheet" href="./style/main.css">
 	</head>
 	<body>
-		
-		<div class="container">
-			<div class="row">
-				<h1 class="col-xs-12 col-md-6 text-center content-text-style">Ben Conner</h1>
-				<!-- navbar -->
-				<nav class="col-xs-12 col-md-6 col-md-offset-6">
-					<ul class="text-center content-text-style">
-						<li class="col-xs-4 col-md-2 text-center">
-							<a href="https://github.com/benConner" class="content-text-style">Github</a>
-						</li>
-						<li class="col-xs-4 col-md-2 text-center" >
-							<a href="https://www.linkedin.com/in/benjamin-conner-2102a49b" class="content-text-style">LinkedIn</a>
-						</li>
-						<li class="col-xs-4 col-md-2 text-center">
-							<a href="mailto:ben.conner40@gmail.com" class="content-text-style">Email</a>
-						</li>
-					</ul>
-				</nav>
-				<!-- About me -->
-				<div class="row-centered">
-					<div class="col-centered col-md-offset-3">
-						<div class="col-xs-12 col-sm-6 col-md-4 about-me-content">
-							<h3 class="text-center content-text-style">About me</h3>
-							<p class="content-text-style">I always swore I wasn't a "city guy" -- that is, until I traded in my southern Illinois roots for a new life in Nashville. Over two years later, I've found myself on my next adventure: learning to code at the Nashville Software School. I've always been a tinkerer; a problem-solver, and web development offers the most unique opportunity to turn my hobbies into my profession. Each day brings a new challenge, and I'm eager to see just where coding will take me.</p>
-						</div>
-						<img src="/img/IMG_1703.PNG" alt="Picture of Ben Conner" class="img-rounded col-sm-6 img-responsive center-block pic-about-ben">	
-					</div>
-				</div><!-- end of about me -->
-			</div><!-- end of .row -->
-		</div><!-- end of .container -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+  	<!-- navbar -->
+  	<nav class="header_nav">
+      <h1 class="title-name">Ben Conner</h1>
+  		<ul>
+  			<li class="list_item_links">
+  				<a href="https://github.com/benConner" class="content-text-style">
+  				  <img src="./img/github_icon.png" alt="Github Logo" class="icon_img"> github.com/benConner
+  				</a>
+  			</li>
+  			<li class="list_item_links" >
+  				<a href="https://www.linkedin.com/in/benjamin-conner-2102a49b" class="content-text-style">
+            <img src="./img/linkedIn_logo.png" alt="LinkedIn Logo" class="icon_img"> linkedin.com/in/benjamin-conner
+          </a>
+  			</li>
+  			<li class="list_item_links">
+  				<a href="mailto:ben.conner40@gmail.com" class="content-text-style">
+            <img src="./img/email.png" alt="Email Icon" class="icon_img"> ben.conner40@gmail.
+          </a>
+  			</li>
+  		</ul>
+  	</nav>
+  	<!-- About me -->
+  	<div class="container_about">
+      <h3 class="about-content-text jq">About Me</h3>
+  		<div class="about-me-content">
+        <img src="./img/dinosaur.jpg" alt="Picture of Ben Conner" class="pic-about-ben">
+  			<div class='content'>
+  			  <p class="about-content-text font_text">I always swore I wasn't a "city guy" -- that is, until I traded in my southern Illinois roots for a new life in Nashville. Over two years later, I've found myself on my next adventure: learning to code at the Nashville Software School. I've always been a tinkerer; a problem-solver, and web development offers the most unique opportunity to turn my hobbies into my profession. Each day brings a new challenge, and I'm eager to see just where coding will take me.</p>
+  			</div>
+  		</div>
+  	</div><!-- end of about me -->
+    <div class="projects">
+      <h2>Projects</h2>
+      <div class="projects_whoosteams projects_item">
+        <label for="WhooSteams">WhooStreams</label>
+        <p class="font_text">Whoostreams is an app to find if and where a movie or tv show is stremaing. If the movie or show is not available on any services it can be saved for quick access when it does become available. It was built as a front-end web application with Angular.js, pulling its information from the <a href="https://api.guidebox.com/" class="guidebox_link">guidebox api</a>. Other technologies used are html5, sass, grunt, and firebase. </p>
+      </div>
+      <div class="projects_num2 projects_item">
+        <label for="WhooSteams">project 2</label>
+        <p class="font_text">Whoostreams is an app to find if and where a movie or tv show is stremaing. If the movie or show is not available on any services it can be saved for quick access when it does become available. It was built as a front-end web application with Angular.js, pulling its information from the <a href="https://api.guidebox.com/" class="guidebox_link">guidebox api</a>. Other technologies used are html5, sass, grunt, and firebase. </p>
+            </div>
+      </div>
+    </div>
+
+    <div class="container_tech">
+      <div class="technologies">
+        <h2>Technologies</h2>
+        <p>Whoostreams is an app to find if and where a movie or tv show is stremaing. If the movie or show is not available on any services it can be saved for quick access when it does become available. It was built as a front-end web application with Angular.js, pulling its information from the <a href="https://api.guidebox.com/" class="guidebox_link">guidebox api</a>. Other technologies used are html5, sass, grunt, and firebase. </p>
+      </div>
+    </div>
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="./app.js" ></script>
 	</body>
 </html>

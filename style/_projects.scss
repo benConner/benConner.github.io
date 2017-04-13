@@ -1,0 +1,14 @@
+.projects{
+  margin-top: 7%;
+  background-color: rgba(150,0,0,0.9);
+display: flex;
+  .projects_item{
+    justify-content: space-around;
+  }
+}
+
+// <div class="projects">
+//   <h2>Projects</h2>
+//   <label for="WhooSteams">WhooStreams</label>
+//   <p>Whoostreams is an app to find if and where a movie or tv show is stremaing. If the movie or show is not available on any services it can be saved for quick access when it does become available. It was built as a front-end web application with Angular.js, pulling its information from the <a href="https://api.guidebox.com/" class="guidebox_link">guidebox api</a>. Other technologies used are html5, sass, grunt, and firebase. </p>
+// </div>

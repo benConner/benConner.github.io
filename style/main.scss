@@ -1,0 +1,24 @@
+@import "nav.scss";
+@import "about.scss";
+@import "tech.scss";
+@import "projects.scss";
+
+body{
+	background: url(/img/code.jpg) black no-repeat fixed;
+	background-position: center;
+	// background-size: 100%;
+  margin: 0;
+}
+.font_text{
+  font-family: 'Architects Daughter', cursive;
+}
+.icon_img{
+  max-width: 20px;
+  max-height: 20px;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+.container_about{
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  .about-content-text {
+  	color: white;
+  	list-style: none;
+  	padding-left: 5%;
+  	margin-left: 5%;
+  }
+  .about-me-content{
+    display: flex;
+    .pic-about-ben{
+    	max-height: 336px;
+    	width: 225px;
+    	margin-left: 50px;
+    	margin-top: 20px;
+    }
+  }
+  .content{
+    // flex-wrap: wrap;
+    max-width: 50%;
+  }
+}
+
+
+// <div class="container_about">
+//   <div class="about-me-content">
+//     <div>
+//       <p class="about-content-text">I always swore I wasn't a "city guy" -- that is, until I traded in my southern Illinois roots for a new life in Nashville. Over two years later, I've found myself on my next adventure: learning to code at the Nashville Software School. I've always been a tinkerer; a problem-solver, and web development offers the most unique opportunity to turn my hobbies into my profession. Each day brings a new challenge, and I'm eager to see just where coding will take me.</p>
+//       <div class="projects about-content-text">
+//         <h2>Projects</h2>
+//         <label for="WhooSteams">WhooStreams</label>
+//         <p>Whoostreams is an app to find if and where a movie or tv show is stremaing. If the movie or show is not available on any services it can be saved for quick access when it does become available. It was built as a front-end web application with Angular.js, pulling its information from the <a href="https://api.guidebox.com/" class="guidebox_link">guidebox api</a>. Other technologies used are html5, sass, grunt, and firebase. </p>
+//       </div>
+//     </div>
+//   </div>
+// </div>

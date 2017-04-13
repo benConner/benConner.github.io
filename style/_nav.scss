@@ -1,0 +1,25 @@
+.header_nav{
+  display: flex;
+  background: rgba(128,128,128,0.8);
+  color: black;
+  flex-direction: row;
+  margin-top: none;
+
+  .title-name{
+    text-align: left;
+    margin: 20px 0 0 20px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  ul{
+    flex: auto;
+    margin-right: 20px;
+    li{
+      list-style: none;
+      text-align: right;
+      a{
+        color: black;
+      }
+    }
+  }
+
+}

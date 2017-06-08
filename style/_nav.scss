@@ -1,6 +1,9 @@
 .header_nav{
   display: flex;
   background: rgba(128,128,128,0.8);
+  // background: url(/img/dinosaur.jpg) black no-repeat;
+  background-position: center;
+	background-size: 100%;
   color: black;
   flex-direction: row;
   margin-top: none;

@@ -1,8 +1,19 @@
-.projects{
-  margin-top: 7%;
+.project-section{
   background-color: rgb(128,128,128);
-display: flex;
+  margin-top: 7%;
+  h2{
+    margin-left: 5px;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+.projects{
+  display: flex;
+  margin: 10px;
   .projects_item{
     justify-content: space-around;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }

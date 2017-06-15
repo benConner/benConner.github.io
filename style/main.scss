@@ -25,7 +25,11 @@ body{
 .section-title{
   font-family: 'Press Start 2P', cursive;
 }
-
+a{
+  text-decoration: none;
+  color: rgb(40, 40, 40);
+}
 a:hover {
-    text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
 }
